@@ -10,6 +10,7 @@ git使用：
   git checkout 分支名称:切换指定分支
   git checkout -b 分支名称： 创建并切换到指定分支
   git branch -d 分支名称： 删除一个分支
+  git push origin :分支名称  删除远程分支(冒号必须要加上,原理是使用本地删除的空分支替换掉远程仓库的)
   git push origin 分支名称 :推送分支到远程仓库
   git pull origin master 更新本地仓库至最新的更改
   git fetch origin
